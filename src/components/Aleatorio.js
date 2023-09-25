@@ -3,12 +3,12 @@ import {Text} from 'react-native'
 import Estilo from './estilo'
 
 export default props => {
-    console.warn(props)
-    const {ale} = props
-    const aleatorio = parseInt(Math.random() * 100)
+    const {min, max} = props
+    const delta = max - min + 1
+    const aleatorio = parseInt(Math.random() * delta) + min
     return(
         <Text style={Estilo.txtGrande}>
-            Número aleatório {ale}: {aleatorio}
+            Número aleatório {aleatorio}
         </Text>
     )
 }
