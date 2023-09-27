@@ -15,11 +15,11 @@ export default props => {
 
 const style = StyleSheet.create({
     Display:{
-        backgroundColor: 'black',
-        width: 300,
+        width: 100,
         padding: 20,
     },
     DisplayText:{
         color: 'white',
+        textAlign: 'center'
     }
 })
