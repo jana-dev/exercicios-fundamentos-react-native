@@ -1,7 +1,12 @@
 import React from 'react'
 import {SafeAreaView, StyleSheet} from 'react-native'
 
-import UsuarioLogado from './components/UsuarioLogado'
+//import Quadrado from './components/layout/Quadrado'
+import FlexBoxV1 from './components/layout/FlexBoxV1'
+//import DigiteSeuNome from './components/DigiteSeuNome'
+//import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+//import ListaProdutos from './components/produtos/ListaProdutos'
+//import UsuarioLogado from './components/UsuarioLogado'
 // import Familia from './components/relacao/Familia'
 // import Membro from './components/relacao/Membro'
 //import ParImpar from './components/ParImpar'
@@ -19,8 +24,12 @@ import UsuarioLogado from './components/UsuarioLogado'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <UsuarioLogado usuario={ {nome: 'Jana', email: 'jana@jana.com'} } />
-        <UsuarioLogado usuario={ {email: 'jana@jana.com'} } />
+        <FlexBoxV1 />
+        {/* <DigiteSeuNome /> */}
+        {/* <ListaProdutosV2 /> */}
+        {/* <ListaProdutos /> */}
+        {/* <UsuarioLogado usuario={ {nome: 'Jana', email: 'jana@jana.com'} } />
+        <UsuarioLogado usuario={ {email: 'jana@jana.com'} } /> */}
         {/* <Familia>
             <Membro nome="Bia" sobrenome="Arruda" />
             <Membro nome="Lara" sobrenome="Arruda" />
